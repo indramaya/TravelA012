@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #999;
+}
+li {
+    list-style: none;
+    float: left;
+    padding:  10px;
+}
+.header {
+
+    /*background-color: #2964B9;
+    height: 80px;
+    color: #F7F3F4; Ini ke ganti*/
+    width: 100%;
+    height: 90px;
+    padding-top: 50px;
+    display: block;
+    background-color: #101010;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background :#101010;
+}
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.header-logo h1{
+    /*float: left;
+    font-size: 36px;
+    padding: 20px 100px;*/
+    height: 100%;
+    display: table-cell;
+    float: left;
+    color: #ff7200;
+    vertical-align: middle;
+    font-weight: 800;
+    font-family: Arial;
+}
+.header-logo span{
+    float: left;
+    font-weight: 200;
+    font-family: 'Montserrat';
+    font-size: 32px;
+
+}
+
+.navigation {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px ;
+}
+ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding-right: 20px;
+}
+ul li a:hover {
+    color: #ff7200;
+}
+.search {
+    float: left;
+    
+}
+
+
+.top-wrapper {
+    text-align: center;
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    background-image: url(https://imgcld.yatra.com/holiday-india/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1441960731/blog/Agatti_beach_2.jpg);
+    width: 100%;
+    height: 300px;
+}
+.top-wrapper h1{
+    font-size: 45px;
+    color: #05595B;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.top-wrapper p{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.info {
+    display: inline-block;
+    color: #F7F3F4;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    box-shadow: 0px 7px #05595B;
+    text-decoration: none;
+    background-color: #062C30;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
